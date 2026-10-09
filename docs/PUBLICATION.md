@@ -51,9 +51,11 @@ PUBLICATION_CHECKS.json when the checks finish.
 ## Clean source build verification
 
 Exact framework and UI commits were confirmed available through their upstream
-GitHub commit endpoints. A clean source clone, recursive submodule initialization
-and generator build will be recorded separately from complete game regeneration
-and compilation. Required external software: native Git/PowerShell, CMake,
+GitHub commit endpoints. An independent source clone, recursive submodule initialization, pinned
+dependency setup and a 45-step native Release generator build all passed. The
+initial full-history toml++ download failed with a TLS disconnect; the corrected
+script successfully fetched only the pinned commit with a bounded request.
+Complete ROM/BIOS regeneration and game compilation were not repeated. Required external software: native Git/PowerShell, CMake,
 Ninja, MinGW-w64 and SDL2 MinGW development files; Python for package audits.
 No system software installation or other-game project changes are performed.
 

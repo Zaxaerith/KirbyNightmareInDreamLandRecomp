@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-09",
+  "stable_private_rc_commit": "f8b725ab5140eb01aaeb379a2dc5157dbd64eeeb",
+  "public_snapshot_tested": "6e0556772f4e04db6f8337c9a03292a6c4b1a1af",
+  "research_branch_preserved": "736abdfab7268ac47eab4d97ad237df40ae35041",
+  "public_history": "Sanitized independent root; original master and research branch retained locally, not pushed",
+  "before": {
+    "bytes": 678075415,
+    "files": 3384,
+    "directories": 1121
+  },
+  "after_cleanup_measurement": {
+    "bytes": 169221628,
+    "files": 1487,
+    "directories": 362,
+    "scope": "After source preparation; before this result file and remote refs"
+  },
+  "archive": {
+    "filename": "KirbyNightmareInDreamLandRecomp_prepub_20261009.7z",
+    "bytes": 205986460,
+    "sha256": "55cb9974ebd61584cbd2e74ebb3dc7a035c7c3f9827dd920cef305d1b25d7b2b",
+    "full_integrity": "PASS"
+  },
+  "cleanup": {
+    "reviewed_items": 98,
+    "scratch_sram_copies_relocated": 6,
+    "original_files_hash_verified": 92,
+    "knidl_materials": "Retained outside project; original full archive also contains them"
+  },
+  "checks": {
+    "public_index_no_private_files": "PASS",
+    "source_host_cmake_config_equal_to_rc": "PASS",
+    "dependency_commit_availability": "PASS",
+    "independent_main_only_clone": "PASS",
+    "recursive_submodule_initialization": "PASS",
+    "pinned_dependency_setup": "PASS after bounded exact-commit fetch",
+    "native_generator_release_build": "PASS (45 build steps)",
+    "cold_full_game_regeneration_and_build": "NOT RUN",
+    "gameplay_replay_repeated": false,
+    "original_rc_43_file_manifest_audit": "PASS",
+    "original_private_inputs_saves_generated_rc_unchanged": "PASS"
+  },
+  "official_original_code_license": {
+    "name": "PolyForm Noncommercial 1.0.0",
+    "copyright": "2026 Zaxaerith",
+    "template_repository": "https://github.com/polyformproject/polyform-licenses",
+    "template_ref": "1.0.0",
+    "template_git_blob": "5ecc88cfc4b1cff608ed640efe913c9dd97935c3"
+  },
+  "recursive_submodule_status": [
+    " e3c834d399b66f5a823c2f0f9d878b62dc05d25a gbarecomp (gen3-pokemon-v0.0.1-203-ge3c834d)",
+    " c626f4e53fcdca0c72d2a7d34d41663d87c7e175 gbarecomp/external/arm-recomp-core (remotes/origin/fix/far-branch-bl)",
+    " 2a03e73693acee0fb78076ea058642c931bef12e gbarecomp/external/rbengine (heads/main)",
+    " d3524c6fef49dcfd511d2de7df4ba5a6e7900732 gbarecomp/external/recomp-net (v0.1.0~15)",
+    " 8e28503b164d4353262ed5abf102c25fa838e4f8 gbarecomp/platform/android/third_party/SDL (release-2.32.10-1-g8e28503b1)",
+    " 6374aae201b930c97425718249f5d39b2275ca13 recomp-ui (remotes/origin/feature/netplay-local-view)"
+  ],
+  "accepted_rc": {
+    "zip_bytes": 8179728,
+    "zip_sha256": "8fc8b8c7f1c1e70dec6489f2ee24a4e3fadc238b19f6d3c071ba5c262af234f2",
+    "unchanged": true
+  },
+  "binary_release": {
+    "status": "PENDING EVIDENCE",
+    "tag_created": false,
+    "release_created": false,
+    "reason": "Owner indicated rights/source information exists but has not supplied the requested basis; package documents also predate the chosen integration license"
+  }
+}
