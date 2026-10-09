@@ -33,6 +33,10 @@ foreach ($asset in $assets) {
     Copy-Item -LiteralPath "$root/build/host/assets/$asset" -Destination "$stage/assets/$asset"
 }
 foreach ($doc in @('LICENSE.md','THIRD_PARTY_NOTICES.md')) { Copy-Item -LiteralPath "$root/$doc" -Destination "$stage/$doc" }
+# Include the exact original-code terms without adding an unreviewed package file.
+$licenseScope = Get-Content -LiteralPath "$root/LICENSE.md" -Raw
+$licenseTerms = Get-Content -LiteralPath "$root/LICENSE" -Raw
+"$licenseScope`n`n---`n`n## Full original-code license terms`n`n$licenseTerms" | Set-Content -LiteralPath "$stage/LICENSE.md" -Encoding utf8
 Copy-Item -LiteralPath "$root/recomp/player-README.md" -Destination "$stage/README.md"
 $licenses = @{
     'GBARecomp'="$root/gbarecomp/LICENSE"; 'RecompUI'="$root/recomp-ui/LICENSE";

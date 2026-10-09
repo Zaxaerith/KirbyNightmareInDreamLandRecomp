@@ -80,8 +80,10 @@ licenses/source notices. ROM, BIOS, generated game/BIOS C++, saves and private
 test logs/screenshots are excluded.
 
 Source-building instructions and technical evidence are in the source checkout's
-README.md and docs/. They are not included in this player package. This candidate
-has only been prepared locally; no remote release or repository was created.
+README.md and docs/. Public source is available at
+https://github.com/Zaxaerith/KirbyNightmareInDreamLandRecomp . This package guide
+does not certify that a public binary Release has been created; the distribution
+review is recorded in the repository's docs/PUBLICATION.md.
 
 ## Credits, licenses and legal notice
 
@@ -93,9 +95,11 @@ Licenses apply per component. GBARecomp is PolyForm Noncommercial 1.0.0; UI and
 several supporting libraries are MIT, SDL2 is zlib, mGBA-derived BIOS HLE files
 are MPL-2.0, and fonts/runtime DLLs retain separate terms. Full texts and exact
 MPL-covered source are in licenses/. Read THIRD_PARTY_NOTICES.md and LICENSE.md.
-No blanket MIT/GPL project license is asserted. Original integration licensing
-is unassigned pending the owner's choice before publication. No overjt/knidl
-code was imported and no reuse permission is presumed.
+No blanket MIT/GPL project license is asserted. Original integration files owned
+by Zaxaerith use PolyForm Noncommercial 1.0.0; the package LICENSE.md includes
+their scope and full terms. Third-party grants are preserved separately.
+No overjt/knidl implementation or bulk symbol data is included and no reuse
+permission is presumed.
 
 The game, BIOS and trademarks belong to their respective owners. This project
 grants no rights to them and claims no affiliation or endorsement. Intended use

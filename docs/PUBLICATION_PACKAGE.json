@@ -1,0 +1,21 @@
+{
+  "status": "LOCAL PREPUBLICATION CANDIDATE; pending rights/source evidence",
+  "zip_filename": "KirbyNightmareInDreamLandRecomp-windows-x64-v0.1.0-preview.zip",
+  "zip_bytes": 8181899,
+  "zip_sha256": "fc699c2c99581c03b51fefb7b7b654b225f7d7d80f0a54a1d3d1271db13d35b4",
+  "original_rc_zip_sha256": "8fc8b8c7f1c1e70dec6489f2ee24a4e3fadc238b19f6d3c071ba5c262af234f2",
+  "allowlisted_files": 43,
+  "zip_integrity": "PASS",
+  "manifest_audit": "PASS",
+  "changed_files": [
+    "LICENSE.md",
+    "manifest.json",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "binaries_assets_licenses_except_original_scope_byte_identical": true,
+  "game_exe_sha256": "7876aeb8d7baec9d66b2ac3b583ee6a3db4afe13ffaefec29613deaec85f45c8",
+  "recompiled": false,
+  "gameplay_tests_repeated": false,
+  "remote_uploaded": false
+}
