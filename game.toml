@@ -1,0 +1,38 @@
+[game]
+name = "Kirby: Nightmare in Dream Land"
+short_name = "kirby_nightmare"
+
+[program]
+name = "Kirby: Nightmare in Dream Land (USA Rev 0)"
+id = "A7KE"
+load_address = 0x08000000
+size = 0x00800000
+entry_pc = 0x08000000
+codegen_shards = 16
+static_resume_all = true
+
+[identity]
+sha1 = "37a476567d133c146fee6b5e2eb0b07a215da6b0"
+
+[rom]
+path = "Kirby - Nightmare in Dream Land (USA).gba"
+sha1 = "37a476567d133c146fee6b5e2eb0b07a215da6b0"
+
+[bios]
+sha1 = "300c20df6731a33952ded8c436f7f186d25d3492"
+hle = false
+skip_intro = false
+
+[save]
+path = "saves/kirby_nightmare_usa.sav"
+
+[runtime]
+window_title = "KirbyNightmareInDreamLandRecomp - Experimental Preview"
+
+[video]
+screen = "raw"
+view_width = 240
+resize_view = false
+
+[audio]
+shadow = false

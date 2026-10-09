@@ -1,0 +1,7 @@
+# gbarecomp-keyinput-v1
+# Synthetic Start press after the boot/title wait; observe the resulting screen.
+0,0x03FF
+720,0x03F7
+728,0x03FF
+960,0x03F7
+968,0x03FF

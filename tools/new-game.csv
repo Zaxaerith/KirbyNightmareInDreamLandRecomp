@@ -1,0 +1,17 @@
+# gbarecomp-keyinput-v1
+# Synthetic inputs from a fresh smoke SRAM; no guest memory modifications.
+0,0x03FF
+720,0x03F7
+728,0x03FF
+960,0x03F7
+968,0x03FF
+1220,0x03FE
+1228,0x03FF
+1460,0x03FE
+1468,0x03FF
+1860,0x03FE
+1868,0x03FF
+2300,0x03BF
+2320,0x03FF
+2540,0x03BF
+2560,0x03FF

@@ -1,0 +1,109 @@
+{
+  "version": "v0.1.0-preview",
+  "zip": "KirbyNightmareInDreamLandRecomp-windows-x64-v0.1.0-preview.zip",
+  "zip_bytes": 8179728,
+  "zip_sha256": "8fc8b8c7f1c1e70dec6489f2ee24a4e3fadc238b19f6d3c071ba5c262af234f2",
+  "pristine_package_files": 43,
+  "isolated_zip_installation": true,
+  "developer_tools_removed_from_path": true,
+  "external_working_directory": true,
+  "game_toml_required": false,
+  "original_save_unchanged": true,
+  "native_sram_sha256": "887b18cd75b8b05e905f7f74a2f5bc01ddc5386eede466ae5c5e7014ab8d6312",
+  "results": {
+    "first-launch-no-assets": {
+      "exit": 0,
+      "pid": 18924,
+      "hidden_renderer": true,
+      "game_not_booted": true
+    },
+    "cached-launcher": {
+      "exit": 0,
+      "pid": 4712,
+      "hidden_renderer": true,
+      "game_not_booted": true
+    },
+    "launcher-contract": {
+      "exit": 0,
+      "valid_wrong_missing_inputs": "PASS",
+      "settings_path_cache_persistence": "PASS"
+    },
+    "wrong-rom": {
+      "exit": 1,
+      "pid": 24444
+    },
+    "wrong-bios": {
+      "exit": 1,
+      "pid": 15996
+    },
+    "title": {
+      "exit": 0,
+      "pid": 13836,
+      "frames": 720,
+      "rgb_sha256": "2f00893ff680610547bda9ee39adcb8420c26f23b1e2af84457c28e1ea0a1fcc",
+      "save_bytes": 32768,
+      "coverage": "self_heal_coverage=NOT_STATIC dispatch_misses=38 interpreted_insns=8334338 healed_native=0 native_calls=0 inflight=0 failed=0",
+      "prior_gameplay_pixels": "IDENTICAL"
+    },
+    "first-stage-entry": {
+      "exit": 0,
+      "pid": 5260,
+      "frames": 2800,
+      "rgb_sha256": "2c31cf4b187454d0d3b3cf4648aed132225505118cc548c5447d52b42559d917",
+      "save_bytes": 32768,
+      "coverage": "self_heal_coverage=NOT_STATIC dispatch_misses=277 interpreted_insns=50223670 healed_native=0 native_calls=0 inflight=0 failed=0",
+      "prior_gameplay_pixels": "IDENTICAL"
+    },
+    "native-map": {
+      "exit": 0,
+      "pid": 16256,
+      "frames": 2660,
+      "rgb_sha256": "3c677bdffc7d0a7b313196554f753328c88adeafc208951ed52e5ae585852e7a",
+      "save_bytes": 32768,
+      "coverage": "self_heal_coverage=NOT_STATIC dispatch_misses=248 interpreted_insns=47924366 healed_native=0 native_calls=0 inflight=0 failed=0",
+      "prior_gameplay_pixels": "IDENTICAL"
+    },
+    "native-cold-menu": {
+      "exit": 0,
+      "pid": 7752,
+      "frames": 1200,
+      "rgb_sha256": "5b647939a3e42fcb6fdbada0995cca1967519f6e3a3dabdbefe39ac93dc423fd",
+      "save_bytes": 32768,
+      "coverage": "self_heal_coverage=NOT_STATIC dispatch_misses=66 interpreted_insns=18220066 healed_native=0 native_calls=0 inflight=0 failed=0",
+      "prior_gameplay_pixels": "IDENTICAL"
+    },
+    "zero-argument-player-handoff": {
+      "exit": 0,
+      "pid": 23304,
+      "zero_arguments": true,
+      "normal_window_close": true,
+      "save_beside_exe": true,
+      "save_sha256": "887b18cd75b8b05e905f7f74a2f5bc01ddc5386eede466ae5c5e7014ab8d6312",
+      "rom_sha1": "37a476567d133c146fee6b5e2eb0b07a215da6b0",
+      "synthetic_launcher_play": true,
+      "manual_input": false,
+      "final": "final_pc=0x00000348 unmapped=0 io_unhandled=0 steps=400 cycles=46148671 ppu_vcount=160 ppu_frames=206 frames_presented=206"
+    }
+  },
+  "full_clear_replay_repeated": false,
+  "manual_launcher_and_keyboard": "PENDING",
+  "owner_controller_graphics_basic_audio": "Previously confirmed by owner",
+  "native_save_scope": "Existing 1%/stage-2 progress retained across normal exit and fresh processes; no new stage clear in this round",
+  "tested_gameplay_zip_sha256": "0125b2cf4f48b72dc817398c56b49400d030ce28014f8068267e04440899411b",
+  "exe_sha256": "7876aeb8d7baec9d66b2ac3b583ee6a3db4afe13ffaefec29613deaec85f45c8",
+  "release_build": "PASS",
+  "final_documentation_repackage": {
+    "changed_files": [
+      "README.md",
+      "manifest.json"
+    ],
+    "binaries_and_assets_byte_identical": true,
+    "stage_and_zip_audit": "PASS"
+  },
+  "dll_sha256": {
+    "libgcc_s_seh-1.dll": "3e869c0776b3715ebc46bc2fed0acaaabb5ca4ba153834ebf17cc409e72ebcfc",
+    "libwinpthread-1.dll": "703bd5ead711a6ea45f11199567a20371ad6d701ee880a6a971a0553af395e76",
+    "SDL2.dll": "20823ae8118bd0c68b6b78418ae62e4acfea2dbc355865425eef004238731763",
+    "libstdc++-6.dll": "d55fed08b90c702728fa5882466726e9897bd8579eb147130de080f0b3942a88"
+  }
+}
