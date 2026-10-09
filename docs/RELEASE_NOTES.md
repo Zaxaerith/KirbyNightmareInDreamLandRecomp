@@ -73,3 +73,12 @@ Their game, BIOS and trademarks remain their property. The integration license
 grants no game-content rights. Consult the approved distribution review and
 bundled component notices; a checksum or input-file exclusion is not a rights
 grant. The approved asset checksum must be supplied alongside the ZIP.
+
+## Prepared asset (pending distribution review)
+
+`KirbyNightmareInDreamLandRecomp-windows-x64-v0.1.0-preview.zip` - 8181899 bytes.
+SHA-256: `fc699c2c99581c03b51fefb7b7b654b225f7d7d80f0a54a1d3d1271db13d35b4`.
+
+License/player documents are updated; game binaries are byte-identical to the
+accepted RC. The asset remains local and has not been uploaded. Preserve the
+historical RC checksum separately from this prepared asset checksum.

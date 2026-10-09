@@ -77,10 +77,11 @@ be created until the following are documented:
    GCC/MinGW runtime DLLs. Installed GCC reports the MinGW-Builds project,
    GCC 16.1.0, x86_64 win32 SEH UCRT, revision 0; obtain the matching upstream
    source/build provenance rather than assuming any GCC source tarball matches.
-3. Alignment of player-package documentation with the owner's newly selected
-   license. The original RC ZIP predates that decision. If documents are updated,
-   preserve the original ZIP and record a new checksum; do not rebuild unchanged
-   gameplay binaries or repeat full-stage acceptance just for documentation.
+3. Player-package license alignment is now prepared locally: only README,
+   LICENSE.md, THIRD_PARTY_NOTICES.md and manifest changed. Full official
+   original-code terms are included. All gameplay binaries, assets and other
+   component notices remain byte-identical. The original RC is preserved.
+   No compilation or gameplay replay was needed for this documentation update.
 
 The [GCC runtime exception](https://gcc.gnu.org/onlinedocs/libstdc++/manual/license.html)
 permits eligible independent compiled combinations under their own terms; it
@@ -99,3 +100,17 @@ create only tag `v0.1.0-preview` at reviewed main, create a GitHub Pre-release,
 and upload the approved ZIP and its SHA-256 companion. Verify remote tag,
 asset sizes and download links. Until then, source publication can proceed;
 this document does not claim that a binary Release exists.
+
+## Prepared publication package
+
+PUBLICATION_PACKAGE.json records the documentation-only candidate, held under
+ignored `release-stage/publication-candidate/`. ZIP integrity and the 43-file
+allowlist/manifest audit PASS. No binary asset has been uploaded.
+
+Candidate bytes: 8181899. SHA-256:
+`fc699c2c99581c03b51fefb7b7b654b225f7d7d80f0a54a1d3d1271db13d35b4`.
+
+This checksum applies only to a future approved public upload. The original RC
+ZIP, EXE, checksum and inventory remain untouched. Distribution gate items 1
+and 2 still await the owner's promised evidence; no game/BIOS rights are granted
+by preparing this package.
